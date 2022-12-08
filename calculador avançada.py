@@ -22,6 +22,8 @@ frame_corpo.grid(row=1, column=0)
 
 # criando label
 
+app_label = Label(frame_tela, text="123456789", width=16, height=2, padx=7, relief=FLAT, anchor="e", justify=RIGHT, bg=cor4, font=('Ivy 18'))
+app.label.place(x=0, y=0)
 
 
 #criando botões
