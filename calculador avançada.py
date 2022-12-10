@@ -41,10 +41,21 @@ def entrar_valores(event):
 # função para calcular
 
 def calcular():
+    global todos_valores
     resultado = eval(todos_valores)
-    print(resultado)
+    
+    valor_texto.set(str(resultado))
+
+# função limpar tela
+
+def limpar_tela():
+    global todos_valores
+    todos_valores =""
+    valor_texto.set("")
 
 
+    
+    
 # criando label
 valor_texto = StringVar()
 
@@ -54,7 +65,7 @@ app_label.place(x=0, y=0)
 
 #criando botões
 
-b_1 = Button(frame_corpo, text="C", width=11, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_1 = Button(frame_corpo,command=limpar_tela, text="C", width=11, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_1.place(x=0, y=0)
 b_2 = Button(frame_corpo, command = lambda: entrar_valores("%"), text="%", width=5, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_2.place(x=118, y=0)
