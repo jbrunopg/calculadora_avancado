@@ -15,11 +15,11 @@ Aumentar meu portfólio de projetos e desafiar meus conhecimentos.
 
 ## Meu processo
 
-- Importação da biblioteca Tkinter.
-- Criação dos frames.
-- Criando a função para calcular.
-- Criando a função para limpar a tela.
-- Criando os botões da calculadora.
+- [x] Importação da biblioteca Tkinter.
+- [x] Criação dos frames.
+- [x] Criando a função para calcular.
+- [x] Criando a função para limpar a tela.
+- [x] Criando os botões da calculadora.
 
 ## Agradecimento
 
