@@ -1,19 +1,15 @@
 # Calculadora Avançada
 
-Neste projeto criei uma calculadora executável em PC usando a lingugem Python e a biblioteca Tkinter.
+Calculadora de Desktop
 
-## Visão Geral
+## Objetivo
 
-O projeto foi criado totalmente com Python, meu editor de código foi Jupyter Lab.
+Criar uma calculadora que trabalhe com as 4 operações e porcentagem.
 
 ![calculaldora](https://user-images.githubusercontent.com/107354811/217582841-cffe6f2e-d835-4b72-a728-09834c890892.png)
 
 
-## Objetivo
-
-Aumentar meu portfólio de projetos e desafiar meus conhecimentos.
-
-## Meu processo
+## Processo de aprendizagem
 
 - [x] Importação da biblioteca Tkinter.
 - [x] Criação dos frames.
